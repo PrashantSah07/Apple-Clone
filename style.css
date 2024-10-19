@@ -1,0 +1,2580 @@
+/* =========== RESET CSS ============= */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f7;
+}
+
+.navbar nav ul {
+    background-color: #f5f5f7;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 0px 0 50px;
+}
+
+.navbar .common {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.navbar nav ul #menu-svg {
+    transform: translateY(-200px);
+}
+
+.sub-header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.sub-header p {
+    padding: 19px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sub-header span {
+    color: rgb(0, 102, 204);
+}
+
+.sub-header sup {
+    font-size: 8px;
+}
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 130px;
+}
+
+.main .box:nth-child(1) h1 {
+    color: rgb(106, 105, 109);
+    font-size: 48px;
+    padding: 0 350px 0 0;
+    word-spacing: -6px;
+    line-height: 1.1;
+}
+
+.main .box:nth-child(1) span {
+    color: rgb(132, 5, 205);
+}
+
+.main .box:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+    width: 300px;
+}
+
+.main .box:nth-child(2)>div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main .box:nth-child(2)>div>p {
+    border-radius: 20px;
+    height: 35px;
+    width: 35px;
+}
+
+.main .box:nth-child(2) div:nth-child(2) p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#store-chat {
+    background-image: url(./asserts/store-chat-specialist-icon-202309_AV2.jpeg);
+    background-size: contain;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px 10px 140px;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.main2 div p {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main2 div p:hover {
+    text-decoration: underline;
+}
+
+
+.main2 img {
+    width: 120px;
+}
+
+.heading-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 0 25px 130px;
+}
+
+.heading-1 p {
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(106, 105, 109);
+}
+
+.heading-1 p span {
+    color: rgb(132, 5, 205);
+}
+
+.main3 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+    padding: 3px 135px;
+    overflow: auto;
+}
+
+.main3 .box3 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 60px 30px;
+    color: rgb(255, 240, 210);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main3 .box3:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.main3 .box3 sup {
+    font-size: 10px;
+}
+
+.box3 .small-font {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.box3 .big-font {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.box3 .medium-font {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.box3 .small-font-14px {
+    font-size: 14px;
+}
+
+.main3 .box3:nth-child(1) {
+    padding: 30px 30px;
+    background-image: url(./asserts/store-card-40-diwali-offer-card-202409.jpeg);
+}
+
+.main3 .box3:nth-child(2) {
+    padding: 30px 30px;
+    background-image: url(./asserts/store-card-40-diwali-ipad-mini-202410.jpeg);
+}
+
+.main3 .box3:nth-child(3) {
+    background-image: url(./asserts/store-card-40-diwali-iphone-16-pro-202409.jpeg);
+}
+
+.main3 .box3:nth-child(4) {
+    background-image: url(./asserts/store-card-40-diwali-watch-s10-202409.jpeg);
+}
+
+.main3 .box3:nth-child(5) {
+    background-image: url(./asserts/store-card-40-diwali-iphone-16-202409.jpeg);
+}
+
+.main3 .box3:nth-child(6) {
+    background-image: url(./asserts/store-card-40-diwali-airpods-202409.jpeg);
+}
+
+.main3 .box3:nth-child(7) {
+    background-image: url(./asserts/store-card-40-diwali-watch-ultra-202409.jpeg);
+}
+
+.main3 .box3:nth-child(8) {
+    background-image: url(./asserts/store-card-40-diwali-ipad-air-202409.jpeg);
+}
+
+.main3 .box3:nth-child(9) {
+    background-image: url(./asserts/store-card-40-diwali-macbook-air-202409.jpeg);
+}
+
+.heading-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 25px 130px;
+}
+
+.heading-2 p {
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(106, 105, 109);
+}
+
+.heading-2 p span {
+    color: rgb(132, 5, 205);
+}
+
+.main4 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 20px;
+    padding: 3px 135px 3px 135px;
+    overflow: auto;
+}
+
+.main4 .box4 {
+    background-color: white;
+    border-radius: 20px;
+    height: 500px;
+    width: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 0 4px rgb(157, 157, 157, 0.4);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main4 .box4:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.main4 .box4:nth-child(1) p {
+    color: rgb(255, 240, 210);
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.main4 .box4 .main4-box4-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 20px 10px 20px 0px;
+}
+
+.main4 .box4 .main4-box4-img img {
+    width: 12px !important;
+    padding: 0px !important;
+}
+
+.main4 .box4 .main4-box4-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 0px 0px 22px 0px;
+}
+
+.main4 .box4 .main4-box4-img2 img {
+    width: 12px !important;
+    padding: 0px 0px !important;
+}
+
+.main4 .box4 .main4-box4-img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 15px 0px 22px 0px;
+}
+
+.main4 .box4 .main4-box4-img3 img {
+    width: 12px !important;
+    padding: 0px 0px !important;
+}
+
+.main4 .box4 .main4-box4-img4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 15px 0px 27px 0px;
+}
+
+.main4 .box4 .main4-box4-img4 img {
+    width: 12px !important;
+    padding: 0px 0px !important;
+}
+
+.main4 .box4 .main4-box4-img5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 1px 0px 32px 0px;
+}
+
+.main4 .box4 .main4-box4-img5 img {
+    width: 12px !important;
+    padding: 0px 0px !important;
+}
+
+.main4 .box4 .main4-box4-img6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 1px 0px 17px 0px;
+}
+
+.main4 .box4 .main4-box4-img6 img {
+    width: 12px !important;
+    padding: 0px 0px !important;
+}
+
+.main4 .box4 .main4-box4-img7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 0px 0px 18px 0px;
+}
+
+.main4 .box4 .main4-box4-img7 img {
+    width: 12px !important;
+    padding: 0px 0px !important;
+}
+
+.main4 .box4 div .box4-p-orange-txt {
+    color: rgb(182, 68, 0);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 0 7px 0;
+}
+
+.main4 .box4 div .box4-div-p-2nd-child {
+    font-size: 17px;
+}
+
+.main4 .box4 div .bt-spkr {
+    width: 200px;
+}
+
+.main4 .box4 .box4-div-p-3rd-child {
+    font-size: 14px;
+    color: #848485;
+    position: absolute;
+    bottom: 20px;
+}
+
+.main4 .box4:nth-child(1) {
+    background-image: url(./asserts/store-card-40-diwali-accessories-202409.jpeg);
+    height: 500px;
+    width: 400px;
+    padding: 50px 50px 0 30px;
+}
+
+.main4 .box4:nth-child(2) img {
+    width: 240px;
+    padding: 60px 0px 0px 10px;
+}
+
+.main4 .box4:nth-child(3) img {
+    width: 250px;
+    padding: 70px 0px 0px 14px;
+}
+
+.main4 .box4:nth-child(4) img {
+    width: 240px;
+    padding: 70px 0px 0px 17px;
+}
+
+.main4 .box4:nth-child(5) img {
+    width: 240px;
+    padding: 75px 0px 42.5px 17px;
+}
+
+.main4 .box4:nth-child(6) img {
+    width: 240px;
+    padding: 75px 0px 0px 15px;
+}
+
+.main4 .box4:nth-child(7) img {
+    width: 250px;
+    padding: 75px 0px 0px 15px;
+}
+
+.main4 .box4:nth-child(8) img {
+    width: 250px;
+    padding: 75px 0px 0px 15px;
+}
+
+.main4 .box4:nth-child(9) img {
+    width: 240px;
+    padding: 75px 0px 10px 15px;
+}
+
+.heading-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 25px 130px;
+}
+
+.heading-3 p {
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(106, 105, 109);
+}
+
+.heading-3 p span {
+    color: rgb(132, 5, 205);
+}
+
+.main5 {
+    display: grid;
+    grid-template-areas: 'top1 top2 top3 top4 top5'
+        'bottom1 bottom2 bottom3 top4 top5';
+    padding: 3px 135px 3px 135px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 240, 210);
+    overflow: auto;
+}
+
+.main5 .box5 {
+    box-shadow: 0 0 4px rgb(157, 157, 157, 0.4);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main5 .box5:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.main5 .box5 p {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.main5 .box5 .small-font {
+    font-size: 12px;
+    line-height: 38px;
+}
+
+.main5 .box5 .big-font {
+    font-size: 27px;
+}
+
+.main5 .box5 sup {
+    font-size: 17px;
+}
+
+/* .main5 .box5 .main5-box5-svg {
+    color: white !important;
+} */
+
+.main5 .box5:nth-child(1) {
+    background: linear-gradient(86deg, rgba(98, 28, 176, 1) 21%, rgba(102, 20, 157, 1) 48%, rgba(108, 8, 129, 1) 85%);
+    grid-area: top1;
+    padding: 20px 55px 20px 25px;
+    width: 310px;
+
+}
+
+.main5 .box5:nth-child(2) {
+    background: linear-gradient(86deg, rgba(119, 8, 128, 1) 17%, rgba(144, 7, 118, 1) 47%, rgba(159, 6, 112, 1) 85%);
+    padding: 20px 18px 20px 25px;
+    grid-area: top2;
+    width: 310px;
+}
+
+.main5 .box5:nth-child(3) {
+    background: linear-gradient(120deg, rgba(165, 7, 109, 1) 17%, rgba(175, 3, 75, 1) 85%);
+    grid-area: top3;
+    padding: 20px 25px 20px 25px;
+    width: 310px;
+}
+
+.main5 .box5:nth-child(4) {
+    background: linear-gradient(193deg, rgba(136, 0, 67, 1) 17%, rgba(132, 0, 1, 1) 94%);
+    background-image: url(./asserts/store-card-40-business-card-202408.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 25px 20px 25px;
+    grid-area: top4;
+    width: 395px;
+}
+
+
+.main5 .box5:nth-child(5) {
+    background: rgb(130, 2, 45);
+    background: linear-gradient(98deg, rgba(130, 2, 45, 1) 4%, rgba(167, 0, 44, 1) 98%);
+    background-image: url(./asserts/store-card-40-education-card-202408.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 25px 20px 25px;
+    grid-area: top5;
+    width: 395px;
+}
+
+.main5 .box5:nth-child(6) {
+    background: linear-gradient(120deg, rgba(80, 13, 142, 1) 17%, rgba(95, 0, 100, 1) 85%);
+    padding: 20px 5px 130px 25px;
+    grid-area: bottom1;
+    width: 310px;
+}
+
+.main5 .box5:nth-child(7) {
+    background: linear-gradient(120deg, rgba(103, 1, 100, 1) 17%, rgba(142, 1, 77, 1) 85%);
+    padding: 20px 20px 20px 25px;
+    grid-area: bottom2;
+    width: 310px;
+}
+
+.main5 .box5:nth-child(8) {
+    background: linear-gradient(139deg, rgba(153, 5, 83, 1) 17%, rgba(145, 3, 44, 1) 60%, rgba(138, 1, 11, 1) 94%);
+    padding: 20px 25px 20px 25px;
+    grid-area: bottom3;
+    width: 310px;
+}
+
+.heading-4 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 25px 140px;
+}
+
+.heading-4 p {
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(106, 105, 109);
+}
+
+.heading-4 p span {
+    color: rgb(132, 5, 205);
+}
+
+.main6 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 3px 135px 3px 135px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+.main6 .box6 {
+    background-color: white;
+    box-shadow: 0 0 4px rgb(157, 157, 157, 0.4);
+    border-radius: 20px;
+    width: 310px;
+    padding: 30px 50px 0 30px;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main6 .box6:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.main6 .box6:nth-child(1) {
+    padding: 30px 50px 0 30px;
+    color: rgb(255, 240, 210);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main6 .box6:nth-child(1) .small-font {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main6 .box6:nth-child(1) .big-font {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.main6 .box6:nth-child(1) .medium-font {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.main6 .box6:nth-child(1) {
+    background-image: url(./asserts/store-card-40-diwali-engraving-202409.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 499px;
+    width: 400px;
+}
+
+.main6 .box6:nth-child(2) img {
+    width: 245px;
+    object-fit: contain;
+    padding-top: 35px;
+}
+
+.main6 .box6:nth-child(3) img {
+    width: 235px;
+    object-fit: contain;
+    padding: 45px 0 0 10px;
+}
+
+.main6 .box6:nth-child(4) img {
+    width: 235px;
+    object-fit: contain;
+    padding: 45px 0 0 10px;
+}
+
+.main6 .box6:nth-child(5) img {
+    width: 240px;
+    object-fit: contain;
+    padding: 45px 0 0 5px;
+}
+
+.main6 .box6:nth-child(6) img {
+    width: 240px;
+    object-fit: contain;
+    padding: 45px 0 0 5px;
+}
+
+.main6 .box6:nth-child(7) img {
+    width: 235px;
+    object-fit: contain;
+    padding: 45px 0 0 5px;
+}
+
+.main6 .box6:nth-child(8) img {
+    width: 240px;
+    object-fit: contain;
+    padding: 45px 0 0 5px;
+}
+
+.main6 .box6 .main6-box6-red-txt {
+    font-size: 12px;
+    color: rgb(182, 68, 0);
+    font-weight: 600;
+    position: absolute;
+    bottom: 120px;
+}
+
+.main6 .box6 .font-size-17 {
+    font-size: 17px;
+    position: absolute;
+    bottom: 95px;
+}
+
+.main6 .box6 .f-17 {
+    position: absolute;
+    bottom: 75px;
+}
+
+.main6 .box6 .MRP-para {
+    font-size: 14px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.heading-5 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 25px 140px;
+}
+
+.heading-5 p {
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(106, 105, 109);
+}
+
+.heading-5 p span {
+    color: rgb(132, 5, 205);
+}
+
+.main7 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 3px 135px 3px 135px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+.main7 .box7 {
+    box-shadow: 0 0 4px rgb(157, 157, 157, 0.4);
+    border-radius: 20px;
+    width: 480px;
+    height: 500px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main7 .box7:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.main7 .box7:nth-child(1) {
+    background-image: url(./asserts/store-card-50-diwali-apple-music-card-202409.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(255, 240, 210);
+    padding: 50px 160px 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main7 .box7:nth-child(2) {
+    background-image: url(./asserts/iphone-card-50-diwali-today-at-apple-202409.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(255, 240, 210);
+    padding: 30px 110px 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main7 .box7:nth-child(3) {
+    background-image: url(./asserts/store-card-50-tv-services-202409.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main7 .box7:nth-child(4) {
+    background-image: url(./asserts/store-card-50-subscriptions-202108.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 60px 50px 0 30px;
+}
+
+.main7 .box7:nth-child(5) {
+    background-image: url(./asserts/store-card-50-applecare-202409.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 60px 130px 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main7 .box7:nth-child(6) {
+    background-image: url(./asserts/store-card-50-homekit-202405_GEO_IN.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px 100px 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main7 .box7 .big-font {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.main7 .box7 .small-font {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main7 .box7 .color-grey {
+    color: rgb(110, 110, 115);
+}
+
+.main7 .box7 .medium-font {
+    font-size: 17px;
+}
+
+.heading-6 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 25px 140px;
+}
+
+.heading-6 p {
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(106, 105, 109);
+}
+
+.heading-6 p span {
+    color: rgb(132, 5, 205);
+}
+
+.main8 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3px 135px 3px 135px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+.main8 .box8 {
+    box-shadow: 0 0 4px rgb(157, 157, 157, 0.4);
+    border-radius: 20px;
+    width: 480px;
+    height: 500px;
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+
+.main8 .box8:hover {
+    transform: scale(1.01);
+    transition: 0.3s;
+}
+
+.main8 .box8:nth-child(1) {
+    background-image: url(./asserts/store-card-50-diwali-specialist-card-202409.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(255, 240, 210);
+    padding: 30px 50px 0 30px;
+}
+
+.main8 .box8:nth-child(2) {
+    background-image: url(./asserts/store-card-50-TAA-202310.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px 50px 0 30px;
+}
+
+.main8 .box8:nth-child(3) {
+    background-image: url(./asserts/store-card-50-personal-setup-202408.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px 35px 0 30px;
+}
+
+.main8 .box8:nth-child(4) {
+    background-image: url(./asserts/apple-support-app-202308_GEO_IN.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 30px 100px 0 30px;
+}
+
+.main8 .box8 div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main8 .box8 .small-font {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.main8 .box8 .color-grey {
+    color: rgb(110, 110, 115);
+}
+
+.main8 .box8 .big-font {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.main8 .box8 .vdo {
+    background-color: white;
+    font-size: 14px;
+    padding: 27px 30px 27px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    right: 0px;
+}
+
+.main8 .box8 .vdo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.main8 .box8 .vdo p span {
+    background-color: rgb(232, 232, 237);
+    padding: 8px 8px 8px 8px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main8 .box8 .vdo #play-logo {
+    width: 24px;
+    color: rgb(110, 110, 115);
+}
+
+.heading-7 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 0 25px 140px;
+}
+
+.heading-7 p {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.button {
+    padding: 0px 0 25px 140px;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+
+.button button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.content {
+    padding: 40px 250px 15px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content p {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 12px
+}
+
+.content span {
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+
+.content sup {
+    font-size: 7px;
+}
+
+.seperation {
+    border: 0px solid rgb(140, 136, 136);
+    width: 63vw;
+    margin: 0 0 0 300px;
+    border-width: 1px 0 0px 0;
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0 0px 298px;
+    color: #848485;
+}
+
+.footer #apple-logo {
+    color: rgb(35, 34, 34);
+    cursor: pointer;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+
+.footer2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 300px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer2 ul {
+    list-style: none;
+}
+
+.footer2 ul li {
+    font-size: 12px;
+    color: #848485;
+    cursor: pointer;
+}
+
+.footer2 ul li:hover {
+    text-decoration: underline;
+}
+
+.footer2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer2 div nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer2 div nav ul li:first-child {
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+    cursor: default;
+    text-decoration: none;
+}
+
+.footer-after-830px {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    display: none;
+}
+
+.footer-after-830px p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    color: #848485;
+    border: 1px solid #d1cbcb;
+    border-width: 1px 0 0px 0;
+    padding: 5px 0;
+    margin: 0 20px;
+}
+
+.footer-after-830px p:nth-last-child(1) {
+    border-width: 1px 0 1px 0;
+}
+
+.footer3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px 0px 20px 300px;
+}
+
+.footer3 p {
+    font-size: 12px;
+    color: #848485;
+}
+
+.footer3 span {
+    font-size: 12px;
+    color: rgb(0, 102, 204);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer4 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 265px 20px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer4 div {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer4 p {
+    font-size: 12px;
+    color: #848485;
+}
+
+.footer4 div:nth-child(1) p:nth-child(2) {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.footer4 div:nth-child(1) p:nth-child(2) span:hover {
+    text-decoration: underline;
+}
+
+.footer4 div:nth-child(2):after {
+    content: "India";
+    font-size: 12px;
+    color: #848485;
+}
+
+.footer4 div:nth-child(2):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:1400px) {
+
+    .sub-header p {
+        font-size: 13.8px;
+    }
+
+    .sub-header svg {
+        width: 13.8px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 200px 0 0;
+    }
+
+    .main2 {
+        padding: 10px 100px 10px 130px;
+        overflow: auto;
+        gap: 25px;
+    }
+
+    .main3 {
+        padding: 3px 135px 3px 128px;
+    }
+
+    .main4 {
+        padding: 3px 135px 3px 128px;
+    }
+
+    .main5 {
+        padding: 3px 135px 3px 128px;
+    }
+
+    .main6 {
+        padding: 3px 135px 3px 128px;
+    }
+
+    .main7 {
+        padding: 3px 135px 3px 128px;
+    }
+
+    .main8 {
+        padding: 3px 135px 3px 128px;
+    }
+
+    .heading-4 {
+        padding: 60px 0 25px 130px;
+    }
+
+    .heading-5 {
+        padding: 60px 0 25px 130px;
+    }
+
+    .heading-6 {
+        padding: 60px 0 25px 130px;
+    }
+
+    .heading-7 {
+        padding: 60px 0 25px 130px;
+    }
+
+    .button {
+        padding: 0px 0 25px 130px;
+    }
+
+    .content {
+        padding: 40px 220px 15px 220px;
+        gap: 15px;
+    }
+
+    .seperation {
+        width: 67vw;
+        margin: 0 0 0 220px;
+    }
+
+    .footer {
+        padding: 0px 0 0px 220px;
+    }
+
+    .footer2 {
+        padding: 0 220px;
+    }
+
+    .footer3 {
+        padding: 35px 0px 20px 220px;
+    }
+
+    .footer4 {
+        padding: 20px 240px 20px 220px;
+    }
+}
+
+@media only screen and (max-width:1290px) {
+
+    .main {
+        padding: 80px 95px;
+    }
+
+    .main2 {
+        padding: 10px 100px 10px 100px;
+        overflow: auto;
+        gap: 25px;
+    }
+
+    .heading-1 {
+        padding: 100px 0 25px 100px;
+    }
+
+    .main3 {
+        padding: 3px 100px 3px 100px;
+    }
+
+    .heading-2 {
+        padding: 100px 0 25px 100px;
+    }
+
+    .main4 {
+        padding: 3px 100px 3px 100px;
+    }
+
+    .heading-3 {
+        padding: 100px 0 25px 100px;
+    }
+
+    .main5 {
+        padding: 3px 100px 3px 100px;
+    }
+
+    .main6 {
+        padding: 3px 100px 3px 100px;
+    }
+
+    .main7 {
+        padding: 3px 100px 3px 100px;
+    }
+
+    .main8 {
+        padding: 3px 100px 3px 100px;
+    }
+
+    .heading-4 {
+        padding: 60px 0 25px 100px;
+    }
+
+    .heading-5 {
+        padding: 60px 0 25px 100px;
+    }
+
+    .heading-6 {
+        padding: 60px 0 25px 100px;
+    }
+
+    .heading-7 {
+        padding: 60px 0 25px 100px;
+    }
+
+    .button {
+        padding: 0px 0 25px 100px;
+    }
+
+    .content {
+        padding: 40px 170px 15px 170px;
+        gap: 15px;
+    }
+
+    .seperation {
+        width: 75vw;
+        margin: 0 0 0 170px;
+    }
+
+    .footer {
+        padding: 0px 0 0px 170px;
+    }
+
+    .footer2 {
+        padding: 0 170px;
+    }
+
+    .footer3 {
+        padding: 35px 0px 20px 170px;
+    }
+
+    .footer4 {
+        padding: 20px 150px 20px 170px;
+    }
+}
+
+@media only screen and (max-width:1210px) {
+
+    .main {
+        padding: 80px 60px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 150px 0 0;
+    }
+
+    .main2 {
+        padding: 10px 60px 10px 60px;
+        overflow: auto;
+        gap: 25px;
+    }
+
+    .heading-1 {
+        padding: 100px 0 25px 60px;
+    }
+
+    .main3 {
+        padding: 3px 60px 3px 60px;
+    }
+
+    .heading-2 {
+        padding: 100px 0 25px 60px;
+    }
+
+    .main4 {
+        padding: 3px 60px 3px 60px;
+    }
+
+    .heading-3 {
+        padding: 100px 0 25px 60px;
+    }
+
+    .main5 {
+        padding: 3px 60px 3px 60px;
+    }
+
+    .main6 {
+        padding: 3px 60px 3px 60px;
+    }
+
+    .main7 {
+        padding: 3px 60px 3px 60px;
+    }
+
+    .main8 {
+        padding: 3px 60px 3px 60px;
+    }
+
+    .heading-4 {
+        padding: 60px 0 25px 60px;
+    }
+
+    .heading-5 {
+        padding: 60px 0 25px 60px;
+    }
+
+    .heading-6 {
+        padding: 60px 0 25px 60px;
+    }
+
+    .heading-7 {
+        padding: 60px 0 25px 60px;
+    }
+
+    .button {
+        padding: 0px 0 25px 60px;
+    }
+
+    .content {
+        padding: 40px 85px 15px 85px;
+        gap: 15px;
+    }
+
+    .seperation {
+        width: 85vw;
+        margin: 0 0 0 85px;
+    }
+
+    .footer {
+        padding: 0px 0 0px 85px;
+    }
+
+    .footer2 {
+        padding: 0 85px;
+    }
+
+    .footer3 {
+        padding: 35px 0px 20px 85px;
+    }
+
+    .footer4 {
+        padding: 20px 85px 20px 85px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .navbar nav ul {
+        justify-content: space-between;
+        gap: 36px;
+    }
+
+    .main {
+        padding: 80px 35px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 145px 0 0;
+    }
+
+    .main2 {
+        padding: 10px 45px 10px 45px;
+        overflow: auto;
+        gap: 25px;
+    }
+
+    .heading-1 {
+        padding: 100px 0 25px 35px;
+    }
+
+    .main3 {
+        padding: 3px 35px 3px 35px;
+    }
+
+    .heading-2 {
+        padding: 100px 0 25px 35px;
+    }
+
+    .main4 {
+        padding: 3px 35px 3px 35px;
+    }
+
+    .heading-3 {
+        padding: 100px 0 25px 35px;
+    }
+
+    .main5 {
+        padding: 3px 35px 3px 35px;
+    }
+
+    .main6 {
+        padding: 3px 35px 3px 35px;
+    }
+
+    .main7 {
+        padding: 3px 35px 3px 35px;
+    }
+
+    .main8 {
+        padding: 3px 35px 3px 35px;
+    }
+
+    .heading-4 {
+        padding: 60px 0 25px 35px;
+    }
+
+    .heading-5 {
+        padding: 60px 0 25px 35px;
+    }
+
+    .heading-6 {
+        padding: 60px 0 25px 35px;
+    }
+
+    .heading-7 {
+        padding: 60px 0 25px 35px;
+    }
+
+    .button {
+        padding: 0px 0 25px 35px;
+    }
+
+    .content {
+        padding: 40px 45px 15px 45px;
+        gap: 15px;
+    }
+
+    .seperation {
+        width: 90vw;
+        margin: 0 0 0 45px;
+    }
+
+    .footer {
+        padding: 0px 0 0px 45px;
+    }
+
+    .footer2 {
+        padding: 0 45px;
+    }
+
+    .footer3 {
+        padding: 35px 0px 20px 45px;
+    }
+
+    .footer4 {
+        padding: 20px 65px 20px 45px;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    .navbar .common {
+        display: flex;
+        gap: 30px;
+    }
+
+    .main {
+        padding: 80px 20px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 100px 0 0;
+    }
+
+    .main2 {
+        padding: 10px 27px 10px 27px;
+        overflow: auto;
+        gap: 25px;
+    }
+
+    .heading-1 {
+        padding: 80px 0 25px 20px;
+    }
+
+    .main3 {
+        padding: 3px 27px 3px 22px;
+    }
+
+    .heading-2 {
+        padding: 60px 0 25px 25px;
+    }
+
+    .main4 {
+        padding: 3px 27px 3px 22px;
+    }
+
+    .heading-3 {
+        padding: 60px 0 25px 25px;
+    }
+
+    .main5 {
+        padding: 3px 27px 3px 25px;
+    }
+
+    .main6 {
+        padding: 3px 27px 3px 25px;
+    }
+
+    .main7 {
+        padding: 3px 27px 3px 25px;
+    }
+
+    .main8 {
+        padding: 3px 27px 3px 25px;
+    }
+
+    .heading-4 {
+        padding: 60px 0 25px 25px;
+    }
+
+    .heading-5 {
+        padding: 60px 0 25px 25px;
+    }
+
+    .heading-6 {
+        padding: 60px 0 25px 25px;
+    }
+
+    .heading-7 {
+        padding: 60px 0 20px 25px;
+    }
+
+    .button {
+        padding: 0px 0 25px 25px;
+    }
+
+    .content {
+        padding: 40px 25px 15px 25px;
+        gap: 15px;
+    }
+
+    .seperation {
+        width: 90vw;
+        margin: 0 0 0 25px;
+    }
+
+    .footer {
+        padding: 0px 0 0px 25px;
+    }
+
+    .footer2 {
+        padding: 0 25px;
+    }
+
+    .footer3 {
+        padding: 35px 0px 20px 25px;
+    }
+
+    .footer4 {
+        padding: 20px 80px 20px 25px;
+    }
+}
+
+@media only screen and (max-width:1025px) {
+
+    .navbar nav ul {
+        gap: 25px;
+        padding: 0 0px 0 15px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 52px 0 0;
+    }
+
+}
+
+@media only screen and (max-width:960px) {
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 150px 0 0;
+        font-size: 42px;
+    }
+
+    .fnt-sz-14 {
+        font-size: 13px !important;
+    }
+
+    .main .box:nth-child(2)>div>p {
+        height: 33px;
+        width: 33px;
+    }
+
+}
+
+@media only screen and (max-width:935px) {
+
+    .sub-header p {
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+
+    .sub-header svg {
+        width: 13px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 90px 0 0;
+        font-size: 41px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    .navbar nav ul li {
+        font-size: 11px;
+        height: 40px;
+    }
+
+    .navbar .common {
+        display: flex;
+        gap: 25px;
+    }
+
+    .main2 img {
+        width: 103px;
+    }
+
+    .heading-1 {
+        padding: 70px 0 15px 20px;
+    }
+
+    .heading-1 p {
+        font-size: 23px;
+    }
+
+    .main3 .box3 {
+        height: 445px;
+        width: 355px;
+    }
+
+    .fz-15px {
+        font-size: 15px !important;
+    }
+
+    .box3 .big-font {
+        font-size: 23px;
+    }
+
+    .box3 .medium-font {
+        font-size: 15px;
+    }
+
+    .box3 .small-font-14px {
+        font-size: 13px;
+    }
+
+    .heading-2 {
+        padding: 60px 0px 15px 25px;
+    }
+
+    .heading-2 p {
+        font-size: 23px;
+    }
+
+    .main4 .box4 {
+        height: 447px;
+        width: 300px;
+    }
+
+
+    .main4 .box4:nth-child(1) {
+        height: 447px;
+        width: 358px;
+    }
+
+    .main4 .box4:nth-child(1) p {
+        font-size: 23px;
+    }
+
+    .main4 .box4 div .box4-div-p-2nd-child {
+        font-size: 15px;
+    }
+
+    .main4 .box4 .box4-div-p-3rd-child {
+        font-size: 13px;
+    }
+
+    .heading-3 {
+        padding: 50px 0px 20px 25px;
+    }
+
+    .heading-3 p {
+        font-size: 23px;
+    }
+
+    .heading-4 {
+        padding: 55px 0px 20px 25px;
+    }
+
+    .heading-4 p {
+        font-size: 23px;
+    }
+
+    .main5 {
+        gap: 18px;
+    }
+
+    .main5 .box5 p {
+        font-size: 20.5px;
+    }
+
+    .main5 .box5:nth-child(1) {
+        padding: 15px 20px 15px 25px;
+        width: 257px;
+    }
+
+    .main5 .box5:nth-child(2) {
+        padding: 15px 20px 15px 25px;
+        width: 257px;
+    }
+
+    .main5 .box5:nth-child(3) {
+        padding: 15px 20px 15px 25px;
+        width: 257px;
+    }
+
+    .main5 .box5:nth-child(4) {
+        padding: 15px 20px 20px 25px;
+        width: 352px;
+    }
+
+    .main5 .box5:nth-child(5) {
+        padding: 15px 20px 20px 25px;
+        width: 352px;
+    }
+
+    .main5 .box5:nth-child(6) {
+        padding: 15px 20px 115px 25px;
+        width: 257px;
+    }
+
+    .main5 .box5:nth-child(7) {
+        padding: 15px 20px 20px 25px;
+        width: 257px;
+    }
+
+    .main5 .box5:nth-child(8) {
+        padding: 15px 20px 20px 25px;
+        width: 257px;
+    }
+
+    .main6 .box6 {
+        width: 265px;
+        padding: 30px 50px 0 30px;
+    }
+
+    .main6 .box6:nth-child(1) {
+        height: 443px;
+        width: 354px;
+    }
+
+    .main6 .box6:nth-child(2) img {
+        width: 200px;
+    }
+
+    .main6 .box6:nth-child(3) img {
+        width: 205px;
+        padding: 45px 0 0 5px;
+    }
+
+    .main6 .box6:nth-child(4) img {
+        width: 205px;
+        padding: 40px 0 0 0px;
+    }
+
+    .main6 .box6:nth-child(5) img {
+        width: 205px;
+    }
+
+    .main6 .box6:nth-child(6) img {
+        width: 205px;
+        padding: 40px 0 0 0px;
+    }
+
+    .main6 .box6:nth-child(7) img {
+        width: 200px;
+        padding: 40px 0 0 0px;
+    }
+
+    .main6 .box6:nth-child(8) img {
+        width: 200px;
+        padding: 40px 0 0 0px;
+    }
+
+    .main6 .box6:nth-child(1) .small-font {
+        font-size: 11px;
+    }
+
+    .main6 .box6:nth-child(1) .big-font {
+        font-size: 24px;
+    }
+
+    .main6 .box6:nth-child(1) .medium-font {
+        font-size: 14px;
+    }
+
+    .main6 .box6 .font-size-17 {
+        font-size: 15px;
+    }
+
+    .main6 .box6 .MRP-para {
+        font-size: 13px;
+    }
+
+    .heading-5 {
+        padding: 55px 0 20px 25px;
+    }
+
+    .heading-5 p {
+        font-size: 23px;
+    }
+
+    .main7 .box7 {
+        width: 420px;
+        height: 438px;
+    }
+
+    .main7 .box7 .big-font {
+        font-size: 24.5px;
+        font-weight: 600;
+    }
+
+    .main7 .box7 .medium-font {
+        font-size: 15px;
+    }
+
+    .main7 .box7:nth-child(1) {
+        padding: 45px 130px 0 30px;
+    }
+
+    .main7 .box7:nth-child(2) {
+        padding: 24px 110px 0 30px;
+    }
+
+    .main7 .box7:nth-child(3) {
+        padding: 24px 30px 0 30px;
+    }
+
+    .main7 .box7:nth-child(4) {
+        padding: 45px 50px 0 30px;
+    }
+
+    .main7 .box7:nth-child(5) {
+        padding: 45px 90px 0 30px;
+    }
+
+    .main7 .box7:nth-child(6) {
+        padding: 24px 80px 0 30px;
+    }
+
+    .heading-6 {
+        padding: 55px 0 20px 25px;
+    }
+
+    .heading-6 p {
+        font-size: 23px;
+    }
+
+    .main8 .box8 {
+        width: 420px;
+        height: 438px;
+    }
+
+    .main8 .box8 .big-font {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .main8 .box8 .small-font {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .main8 .box8 .medium-font {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .main8 .box8:nth-child(1) {
+        padding: 30px 50px 0 30px;
+    }
+
+    .main8 .box8:nth-child(2) {
+        padding: 30px 30px 0 30px;
+    }
+
+    .main8 .box8:nth-child(3) {
+        padding: 30px 30px 0 30px;
+    }
+
+    .main8 .box8:nth-child(4) {
+        padding: 30px 70px 0 30px;
+    }
+
+    .heading-7 {
+        padding: 55px 0 20px 30px;
+    }
+
+    .heading-7 p {
+        font-size: 24px;
+    }
+
+    .button {
+        padding: 0px 25px 10px 25px;
+        /* height: 50px; */
+    }
+
+    .button button {
+        padding: 9px 15px;
+        font-size: 12.5px;
+    }
+
+    .content {
+        padding: 40px 20px 15px 20px;
+        gap: 10px;
+    }
+
+    .content p {
+        font-size: 11px
+    }
+
+    .seperation {
+        width: 95vw;
+        margin: 0 0 0 20px;
+    }
+
+    .footer {
+        padding: 0px 0 0px 20px;
+        gap: 5px;
+    }
+
+    .footer p {
+        font-size: 11px;
+    }
+
+    .footer2 {
+        padding: 0 20px;
+    }
+
+    .footer2 div nav ul li:first-child {
+        font-size: 11px;
+    }
+
+    .footer2 ul li {
+        font-size: 11px;
+    }
+
+    .footer3 {
+        padding: 35px 0px 20px 20px;
+    }
+
+    .footer3 p {
+        font-size: 11px;
+    }
+
+    .footer3 span {
+        font-size: 11px;
+    }
+
+    .footer4 {
+        padding: 20px 25px 20px 20px;
+    }
+
+    .footer4 p {
+        font-size: 11px;
+    }
+
+    .footer4 div {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .footer4 div:nth-child(2):after {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width:850px) {
+
+    .sub-header p {
+        font-size: 11px;
+        padding: 15px 20px;
+    }
+
+    .content p {
+        font-size: 10px
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+
+    .footer2 div nav ul li:first-child {
+        font-size: 10px;
+    }
+
+    .footer2 ul li {
+        font-size: 10px;
+    }
+
+    .footer3 p {
+        font-size: 10px;
+    }
+
+    .footer4 p {
+        font-size: 10px;
+    }
+
+    .footer4 div:nth-child(2):after {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:830px) {
+
+
+    .navbar nav ul {
+        gap: 25px;
+        padding: 0 15px 0 15px;
+    }
+
+    .navbar .display-none {
+        display: none;
+    }
+
+    .navbar nav ul #menu-svg {
+        transform: translateY(0px);
+    }
+
+    .main {
+        padding: 60px 0 60px 20px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 90px 0 0;
+        font-size: 37px;
+    }
+
+    .main .box:nth-child(2) {
+        gap: 10px;
+    }
+
+    .footer2 {
+        display: none;
+    }
+
+    .footer-after-830px {
+        display: unset;
+    }
+
+    .footer3 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .footer3 p {
+        font-size: 10px;
+        padding: 0px 0 10px 0;
+    }
+
+    .footer3::after {
+        content: "India";
+        font-size: 10px;
+        color: #848485;
+    }
+
+    .seperation2 {
+        display: none;
+    }
+
+    .footer4 div:nth-child(2):after {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width:775px) {
+
+    .sub-header p {
+        font-size: 10.5px;
+        padding: 15px 20px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 90px 0 0;
+        font-size: 33px;
+    }
+
+    .fnt-sz-14 {
+        font-size: 12px !important;
+    }
+
+    .main .box:nth-child(2)>div>p {
+        height: 29px;
+        width: 29px;
+    }
+
+}
+
+@media only screen and (max-width:730px) {
+    .sub-header p {
+        font-size: 14px;
+        padding: 20px 40px;
+    }
+
+    .sub-header svg {
+        width: 14px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .main .box:nth-child(2) {
+        width: 180px;
+        gap: 15px;
+    }
+
+    .fnt-sz-14 {
+        font-size: 14px !important;
+    }
+
+    .main .box:nth-child(2)>div>p {
+        height: 33px;
+        width: 33px;
+    }
+
+    .main2 img {
+        width: 88px;
+    }
+
+    .content p {
+        font-size: 12px
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer3 p {
+        font-size: 12px;
+    }
+
+    .footer3 span {
+        font-size: 12px;
+    }
+
+    .footer3::after {
+        font-size: 12px;
+    }
+
+    .footer4 p {
+        font-size: 12px;
+    }
+
+    .footer4 div {
+        gap: 10px;
+    }
+
+    .footer-after-830px p {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    .button button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+    .main .box:nth-child(1) h1 {
+        padding: 0 20px 0 0;
+        font-size: 30px;
+    }
+
+    .button button {
+        padding: 10px 13px;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .main3 .box3 {
+        height: 445px;
+        width: 311px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box3 .big-font {
+        font-size: 20px;
+    }
+
+    .fz-15px {
+        font-size: 17px !important;
+    }
+
+    .box3 .medium-font {
+        font-size: 17px;
+    }
+
+    .box3 .small-font-14px {
+        font-size: 15px;
+    }
+
+    .main4 .box4 {
+        height: 435px;
+    }
+
+    .main4 .box4:nth-child(1) {
+        height: 435px;
+        width: 311px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main4 .box4:nth-child(1) p {
+        font-size: 20px;
+    }
+
+    .main4 .box4 div .box4-div-p-2nd-child {
+        font-size: 17px;
+    }
+
+    .main4 .box4 .box4-div-p-3rd-child {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .main4 .box4:nth-child(2) img {
+        width: 220px;
+        padding: 60px 0px 0px 20px;
+    }
+
+    .main4 .box4:nth-child(3) img {
+        width: 219px;
+        padding: 66px 0px 0px 20px;
+    }
+
+    .main4 .box4:nth-child(4) img {
+        width: 219px;
+        padding: 70px 0px 0px 24px;
+    }
+
+    .main4 .box4:nth-child(5) img {
+        width: 218px;
+        padding: 75px 0px 42.5px 20px;
+    }
+
+    .main4 .box4:nth-child(6) img {
+        width: 220px;
+        padding: 61px 0px 0px 15px;
+    }
+
+    .main4 .box4:nth-child(7) img {
+        width: 223px;
+        padding: 58px 0px 0px 12px;
+    }
+
+    .main4 .box4:nth-child(8) img {
+        width: 225px;
+        padding: 55px 0px 0px 8px;
+    }
+
+    .main4 .box4:nth-child(9) img {
+        width: 220px;
+        padding: 75px 0px 10px 19px;
+    }
+
+    .main5 .box5:nth-child(1) {
+        padding-bottom: 18px;
+        width: 311px;
+    }
+
+    .main5 .box5:nth-child(2) {
+        width: 311px;
+    }
+
+    .main5 .box5:nth-child(3) {
+        width: 311px;
+    }
+
+    .main5 .box5:nth-child(4) {
+        background-size: cover;
+        background-position: center;
+        width: 311px;
+    }
+
+    .main5 .box5:nth-child(5) {
+        background-size: cover;
+        background-position: center;
+        width: 311px;
+    }
+
+    .main5 .box5:nth-child(6) {
+        width: 311px;
+    }
+
+    .main5 .box5:nth-child(7) {
+        width: 311px;
+    }
+
+    .main5 .box5:nth-child(8) {
+        width: 311px;
+    }
+
+    .main6 .box6 {
+        width: 311px;
+        padding: 30px 30px 0 30px;
+    }
+
+    .main6 .box6:nth-child(1) {
+        height: 443px;
+        width: 311px;
+        background-size: cover;
+        background-position: center;
+        padding: 30px 30px 0 30px;
+    }
+
+    .main6 .box6:nth-child(1) .big-font {
+        font-size: 20px;
+    }
+
+    .main6 .box6:nth-child(1) .medium-font {
+        font-size: 17px;
+    }
+
+    .main6 .box6:nth-child(2) img {
+        width: 230px;
+        padding: 24px 0 0 12px;
+    }
+
+    .main6 .box6:nth-child(3) img {
+        width: 228px;
+        padding: 40px 0 0 25px;
+    }
+
+    .main6 .box6:nth-child(4) img {
+        width: 227px;
+        padding: 35px 0 0 22px;
+    }
+
+    .main6 .box6:nth-child(5) img {
+        width: 224px;
+        padding: 35px 0 0 23px;
+    }
+
+    .main6 .box6:nth-child(6) img {
+        width: 227px;
+        padding: 35px 0 0 18px;
+    }
+
+    .main6 .box6:nth-child(7) img {
+        width: 224px;
+        padding: 35px 0 0 23px;
+    }
+
+    .main6 .box6:nth-child(8) img {
+        width: 225px;
+        padding: 35px 0 0 20px;
+    }
+
+    .main6 .box6 .font-size-17 {
+        font-size: 17px;
+    }
+
+    .main6 .box6 .MRP-para {
+        font-size: 15px;
+    }
+
+    .main7 .box7 {
+        width: 311px;
+        height: 438px;
+    }
+
+    .main7 .box7 .big-font {
+        font-size: 20px;
+    }
+
+    .main7 .box7 .medium-font {
+        font-size: 17px;
+    }
+
+
+    .main7 .box7:nth-child(1) {
+        padding: 45px 30px 0 30px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main7 .box7:nth-child(2) {
+        padding: 24px 30px 0 30px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main7 .box7:nth-child(3) {
+        padding: 24px 86px 0 30px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main7 .box7:nth-child(4) {
+        padding: 45px 30px 0 30px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main7 .box7:nth-child(5) {
+        padding: 45px 30px 0 30px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main7 .box7:nth-child(6) {
+        padding: 24px 30px 0 30px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main8 .box8 {
+        width: 313px;
+        height: 438px;
+    }
+
+    .main8 .box8:nth-child(1) {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main8 .box8:nth-child(2) {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main8 .box8:nth-child(3) {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main8 .box8:nth-child(4) {
+        padding: 30px 30px 0 30px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main8 .box8 .big-font {
+        font-size: 20px;
+    }
+
+    .main8 .box8 .medium-font {
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (max-width:450px) {
+
+    .button button {
+        padding: 3px 33px;
+        font-size: 14px;
+    }
+
+    .main .box:nth-child(1) h1 {
+        padding: 0 40px 0 0;
+        font-size: 30px;
+    }
+
+}
